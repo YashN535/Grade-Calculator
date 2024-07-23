@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Grade Calculator</h2>
+
+      <label for="Physics">Physics:</label>
+      <input
+        type="number"
+        id="Physics"
+        placeholder="Enter marks for Physics "
+      />
+
+      <label for="Chemistry">Chemistry:</label>
+      <input
+        type="number"
+        id="Chemistry"
+        placeholder="Enter marks for Chemistry "
+      />
+
+      <label for="Maths">Maths:</label>
+      <input type="number" id="Maths" placeholder="Enter marks for Maths " />
+
+      <label for="English">English:</label>
+      <input
+        type="number"
+        id="English"
+        placeholder="Enter marks for English "
+      />
+      <label for="Computer">Computer:</label>
+      <input
+        type="number"
+        id="Computer"
+        placeholder="Enter marks for Computer "
+      />
+
+      <button onclick="calculateGrade()">Calculate Grade</button>
+      <div class="result" id="result"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
